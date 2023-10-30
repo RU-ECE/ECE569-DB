@@ -1,4 +1,7 @@
-[<img src="assets/RUshield.png" alt="Rutgers University"](https://www.ece.rutgers.edu/)
+<a href="ece.rutgers.edu">
+  <img src="assets/RUshield.png" alt="Rutgers University" width="100">
+</a>
+
 # ECE-451/556 Parallel and Distributed Computing
 * 2023 Fall
 * **Instructor:**  [Dov Kruger](https://RU-ECE/DovKrugerCourses/DovKrugerBio.md)
@@ -50,13 +53,7 @@ After completion of this course, students will be able to
 *  Use a programming language to interact with an SQL database
 *  
 *  Implement a complete database project
-*  
-*  
-*  
-*  
-*  
-*  
-
+  
 ## FORMAT AND STRUCTURE
 * Classes include slides and live coding. You are encouraged to actively participate.
 * Classes will be recorded, but the recordings will only be given out if students have a valid reason for absence. You are expected to attend.
@@ -87,6 +84,10 @@ After completion of this course, students will be able to
 * Other Readings: 	Papers available in ref directory of repo
 
 ## COURSE REQUIREMENTS
+
+* **Software Installation**
+  * [MariaDB server]() 
+  * [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)  
 * **Attendance:**	Attendance is crucial for an effective learning but will not be graded. Your work will speak for itself.
 * **Homework:** 	Coding assignments will be submitted via canvas for individual single files, or via github.
 
