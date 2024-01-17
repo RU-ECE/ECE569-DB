@@ -2,7 +2,7 @@
   <img src="assets/RUshield.png" alt="Rutgers University" width="100">
 </a>
 
-# ECE-451/556 Parallel and Distributed Computing
+# ECE-569 Database
 * 2023 Fall
 * **Instructor:**  [Dov Kruger](https://RU-ECE/DovKrugerCourses/DovKrugerBio.md)
 * **[Meeting Times and Office hours](https://bit.ly/3ObwKEr)
@@ -39,7 +39,8 @@ This course covers databases
 * SQL commands
 * Weaknesses of the SQL standard
 * Query Optimization
-* Data interchange languages: XML, JSON, YAML
+* Programming applications with databases (in C++, Java, or potentially a language of your choice)
+* Data interchange languages: XML, JSON
 * Binary data interchange
 * NoSQL databases (MongoDB)
 * Scientific structured data ([NetCDF](https://docs.unidata.ucar.edu/netcdf-c/current/), [HDF5](https://www.hdfgroup.org/))
@@ -54,7 +55,6 @@ After completion of this course, students will be able to
 *  Identify APIs for binary data transport
 *  Use scientific databases to store and retrieve multidimensional data at high speed. 
 *  Use a programming language to interact with an SQL database
-*  
 *  Implement a complete database project
   
 ## FORMAT AND STRUCTURE
