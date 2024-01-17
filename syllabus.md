@@ -9,14 +9,15 @@
 * **[Resources](https:github.com//RU-ece/DovKrugerCourses/DovKrugerBio.md)**
 * **[Course Web Address](https://github.com/RU-ECE/ECE569-DB)**
 ** Prerequisites**
-  * Required basic C++ or Java in order to write clients to DB
-  * TBD
-  * 
+  * Required basic C++, Java, Python, Rust, ??? in order to write clients to DB
+    * Your code is your business. If you use python or any language I don't know well, I can't help much
 
 ## Hardware Requirements
 
 * A laptop running windows, Mac or Linux. You may use lab machines if necessary
-* You must install MariaDB or Mysql. Postgres is also recommended.
+  * Please see me if you cannot afford a laptop. There are a limited set of laptops that perhaps you can be lent
+* You must install MariaDB or Mysql. PostGRES is optional, but the more you do, the more you will learn.
+* You can install the database in a docker container, in a virtual machine, or on your bare computer. Learning all these things are valuable but not required.
 
 ## COURSE DESCRIPTION
 
@@ -26,9 +27,11 @@ This course covers databases
 * ACID properties
 * Database and schema design
 * Schema normalization and integrity constraints
+* Indices
 * Query processing
 * Query optimization and cost estimation
 * Transactions
+* Stored Procedures
 * Recovery
 * Concurrency control
 * Isolation and consistency; 
@@ -36,7 +39,7 @@ This course covers databases
 * SQL commands
 * Weaknesses of the SQL standard
 * Query Optimization
-* Data interchange languages: XML, JSON
+* Data interchange languages: XML, JSON, YAML
 * Binary data interchange
 * NoSQL databases (MongoDB)
 * Scientific structured data ([NetCDF](https://docs.unidata.ucar.edu/netcdf-c/current/), [HDF5](https://www.hdfgroup.org/))
@@ -46,17 +49,18 @@ This course covers databases
 After completion of this course, students will be able to
 *  Design databases with efficient structure and guaranteed consistency
 *  Write queries with transactional integrity
-*  Use data interchange standards such as XML and JSON
+*  Use data interchange standards to import and export data
 *  Understand the performance issues of ASCII data transport
 *  Identify APIs for binary data transport
-*  Use scientific multidimensional databases like netcdf and hdf5 for non-transactional
+*  Use scientific databases to store and retrieve multidimensional data at high speed. 
 *  Use a programming language to interact with an SQL database
 *  
 *  Implement a complete database project
   
 ## FORMAT AND STRUCTURE
 * Classes include slides and live coding. You are encouraged to actively participate.
-* Classes will be recorded, but the recordings will only be given out if students have a valid reason for absence. You are expected to attend.
+* There will be paper exercises to be collected, primarily to record attendance. A small number of points will be affected, but 
+* Classes will be recorded and the recordings made public each class. You are expected to attend.
 
 ## COURSE MATERIALS
 
@@ -86,9 +90,9 @@ After completion of this course, students will be able to
 ## COURSE REQUIREMENTS
 
 * **Software Installation**
-  * [MariaDB server]() 
+  * [MariaDB server](https://mariadb.org/download/) 
   * [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)  
-* **Attendance:**	Attendance is crucial for an effective learning but will not be graded. Your work will speak for itself.
+* **Attendance:**	Attendance is crucial for an effective learning but will only count for the small in-class credits. Your work will speak for itself.
 * **Homework:** 	Coding assignments will be submitted via canvas for individual single files, or via github.
 
 ## GRADING PROCEDURES
