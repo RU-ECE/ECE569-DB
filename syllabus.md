@@ -12,12 +12,9 @@
   * Required basic C++, Java, Python, Rust, ??? in order to write clients to DB
     * Your code is your business. If you use python or any language I don't know well, I can't help much
 
-## Hardware Requirements
+## Hardware and Software Setup
 
-* A laptop running windows, Mac or Linux. You may use lab machines if necessary
-  * Please see me if you cannot afford a laptop. There are a limited set of laptops that perhaps you can be lent
-* You must install MariaDB or Mysql. PostGRES is optional, but the more you do, the more you will learn.
-* You can install the database in a docker container, in a virtual machine, or on your bare computer. Learning all these things are valuable but not required.
+See [Preparing.md](Preparing.md)
 
 ## COURSE DESCRIPTION
 
@@ -100,11 +97,11 @@ Grades will be based on:
 * Homework problem sets                                (5%)
 * Group Programming Homeworks                         (15%)
 * Midterm                                             (40%)
-* Final Project or final exam                         (40%)
+* Final Project                         (40%)
 
 [Grading Policies] (https://github.com/RU-ECE/DovKrugerCourses/grading.md)
 [Academic Honesty and Discipline] (https://github.com/RU-ECE/DovKrugerCourses/academichonesty.md)
 
 ## IMPORTANT DATES
-* Midterm          ** 2024-TBD **
+* Midterm          ** Mar 20, 2024 **
 * Final Project    ** 2024-TBD **
