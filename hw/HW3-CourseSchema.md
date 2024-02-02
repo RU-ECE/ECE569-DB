@@ -22,6 +22,7 @@ You will need to define:
 2. Courses
   * course id (16:332:569 is the course id for this course)
   * course title (ie Database Systems)
+  * credits
   * description: longer text with a description
   * prerequisites: any courses you must take before this one (often, none)
 
