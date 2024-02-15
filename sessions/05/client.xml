@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE Clients [
+<!ELEMENT Clients ((Client|Client2)*)>
+<!ELEMENT Client (id, firstname, lastname)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT Client2 (EMPTY)>
+<!ATTLIST Client2 id CDATA #REQUIRED>
+<!ATTLIST Client2 firstname CDATA #REQUIRED>
+<!ATTLIST Client2 lastname CDATA #REQUIRED>
+
+]>
+<Clients>
+<Client>
+    <id>123</id>
+    <firstname>Abe</firstname>
+    <lastname>Lincoln</lastname>
+</Client>
+</Clients>

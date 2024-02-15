@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<myroottag>
+<a>
+    <b/>    <b></b>
+
+<!--
+    this is a comment
+
+    this tag is illegal because the tags overlap
+        <c>blag blah <d>blah</c> </d>
+-->
+    <anystupidtagyouwant>whatever?1421j!</anystupidtagyouwant>
+    <data value='123'/>
+
+
+    <purchase_order>
+        <identifier> P-101 </identifier>
+        <purchaser> …. </purchaser>
+    </purchase_order>
+
+    <purchase_order identifier="P-101">
+        <purchaser> …. </purchaser>
+    </purchase_order>
+    <item id="RS1" description='Atom powered\" rocket sled' qty="2" price="199.95">
+        <thing>hello</thing>
+    </item>
+</a>
+<a>
+</a>
+</myroottag>
