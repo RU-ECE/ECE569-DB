@@ -12,6 +12,7 @@
 
 ]>
 <Clients>
+<Client2 firstname="John" lastname="Doe" id="1192"/>
 <Client>
     <id>123</id>
     <firstname>Abe</firstname>
