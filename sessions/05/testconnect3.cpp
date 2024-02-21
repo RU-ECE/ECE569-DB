@@ -19,7 +19,6 @@ using namespace sql;
 
 void test_multiple_query(Connection* con) {
   //std::unique_ptr<>
-  con->setSchema("dov");
   sql::Statement* stmt = con->createStatement();
 	// create a statement. Prepared statements are faster and more secure
 	// if there are params. In this case there are none.
@@ -33,6 +32,7 @@ void test_multiple_query(Connection* con) {
     }
   } while (stmt.getMoreResults());
   #endif
+  stmt->getMoreResults();
   sql::ResultSet* res = stmt->getResultSet(); 
   cout << res->getInt(1) << '\n';
   delete res;
@@ -45,6 +45,28 @@ void test_multiple_query(Connection* con) {
   delete stmt;
 }
 
+void test_multiple_query2(Connection* con) {
+  std::unique_ptr< sql::PreparedStatement >  pstmt;
+  std::unique_ptr< sql::ResultSet > res;
+
+  pstmt.reset(con->prepareStatement("CALL sp_getvalues()"));
+  res.reset(pstmt->executeQuery());
+  if (res->next()) {
+    cout << res->getInt(1) << '\n';
+  }
+  if (pstmt->getMoreResults()) {
+    res.reset(pstmt->getResultSet());
+    if (res->next()) {
+      cout << res->getInt(1) << '\t' << res->getInt(2) << '\n';
+    }
+  }
+  if (pstmt->getMoreResults()) {
+    res.reset(pstmt->getResultSet());
+    if (res->next()) {
+      cout << res->getDouble(1) << '\n';
+    }
+  }
+}
 
 int main(int argc, char* argv[]) {
 try {
@@ -57,8 +79,17 @@ try {
 
 	// connect to hardcoded local mysql server
 	// note: not good practice to embed password in code! just for first demo
-	Connection* con = driver->connect(url, userid, passwd);
-  test_multiple_query(con);
+  sql::ConnectOptionsMap connection_properties;
+  connection_properties["CLIENT_MULTI_RESULTS"]= "true";
+  connection_properties["hostName"]=url;
+    /* user comes from the unit testing framework */
+  connection_properties["userName"]=userid;
+  connection_properties["password"]=passwd;
+  connection_properties["useTls"]= "true";
+	Connection* con = driver->connect(connection_properties);
+  con->setSchema("dov");
+//  test_multiple_query(con);
+  test_multiple_query2(con);
 	/*
 		clean up. This is not a good way to do it, because if you forget you leak the objects
 		TODO: use smart pointer to automatically deallocate.
