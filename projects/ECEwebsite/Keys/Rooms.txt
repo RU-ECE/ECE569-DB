@@ -1,0 +1,276 @@
+
++-----+------------+----------------------------+---------+
+| RID | RoomNumber | RoomName                   | KeyCode |
++-----+------------+----------------------------+---------+
+|   1 | ECE002     | ECE 002                    | BEB67   |
+|   2 | ECE004     | ECE 004                    | BEB68   |
+|   3 | ECE103     | ECE 103                    | BEB92   |
+|   4 | ECE104     | ECE 104                    | BEB74   |
+|   5 | ECE105     | ECE 105                    | RB13    |
+|   6 | ECE106     | ECE 106                    | BEB93   |
+|   7 | ECE107     | ECE 107                    | BEB90   |
+|   8 | ECE109     | ECE 109                    | RB12    |
+|   9 | ECE110     | ECE 110                    | BEB72   |
+|  10 | ECE111     | ECE 111                    | BEB79   |
+|  11 | ECE112     | ECE 112                    | BEB89   |
+|  12 | ECE113     | ECE 113                    | BEB99   |
+|  13 | ECE114     | ECE 114                    | BEB13   |
+|  14 | ECE115     | ECE 115                    | BEB22   |
+|  15 | ECE116     | ECE 116                    | BEB12   |
+|  16 | ECE117     | ECE 117                    | BEBA2   |
+|  17 | ECE118     | ECE 118                    | BEB11   |
+|  18 | ECE119     | ECE 119                    | BEB83   |
+|  19 | ECE119BOLT | ECE 119 Deadbolt           | BEB82   |
+|  20 | ECE120     | ECE 120                    | BEB10   |
+|  21 | ECE121     | ECE Entrance               | BX42    |
+|  22 | ECE122     | ECE 122                    | BEB5    |
+|  23 | ECE123A    | ECE 1st Floor Telco Closet | BR86    |
+|  24 | ECE124     | ECE 124                    | BR510   |
+|  25 | ECE128     | ECE 128                    | RB3     |
+|  26 | ECE130     | ECE 130                    | BEB98   |
+|  27 | ECE132     | ECE 132                    | BEBA3   |
+|  28 | ECE134A    | ECE 134A                   | BEBA5   |
+|  29 | ECE134B    | ECE 134B                   | BEBA1   |
++-----+------------+----------------------------+---------+
+|  30 | ECE201     | ECE 201                    | BEB65   |
+|  31 | ECE202     | ECE 202                    | RB8     |
+|  32 | ECE203     | ECE 203                    | BEB95   |
+|  33 | ECE204     | ECE 204                    | RB7     |
+|  34 | ECE205     | ECE 205                    | BEB96   |
+|  35 | ECE207     | ECE 207                    | BEB94   |
+|  36 | ECE208     | ECE 208                    | RB5     |
+|  37 | ECE209     | ECE 209                    | BEB77   |
+|  38 | ECE210     | ECE 210                    | BR560   |
+|  39 | ECE211     | ECE 211                    | BEB70   |
+|  40 | ECE212     | ECE 212                    | RB3     |
+|  41 | ECE213     | ECE 213                    | BEB71   |
+|  42 | ECE214     | ECE 214                    | LFA2    |
+|  43 | ECE215     | ECE 215                    | BEB8    |
+|  44 | ECE216     | ECE 216                    | BEBB6   |
+|  45 | ECE217     | ECE 217                    | BEB9    |
+|  46 | ECE218     | ECE 218                    | BEB100  |
+|  47 | ECE219     | ECE 219                    | LR556   |
+|  48 | ECE220     | ECE 220                    | BEB29   |
+|  49 | ECE221A    | ECE 2nd Floor Telco Closet | BR322   |
+|  50 | ECE222     | ECE 222                    | BEB27   |
+|  51 | ECE224     | ECE 224                    | BEB25   |
+|  52 | ECE226     | ECE 226                    | BEB23   |
+|  53 | ECE228     | ECE 228                    | BEB21   |
+|  54 | ECE230     | ECE 230                    | BEB19   |
+|  55 | ECE232     | ECE 232                    | BEB17   |
+|  56 | ECE236     | ECE 236                    | BEB15   |
+|  57 | ECE238     | ECE 238                    | BEB14   |
+|  58 | ECE240     | ECE 240                    | BR488   |
+|  59 | ECE242     | ECE 242                    | BEB80   |
++-----+------------+----------------------------+---------+
+|  60 | CORE501    | CORE 501                   | BR273   |
+|  61 | CORE501A   | CORE 501A                  | LLHA2   |
+|  62 | CORE501B   | CORE 501B Kitchen          | LLHA3   |
+|  63 | CORE502    | CORE 502 Mailroom          | BR282   |
+|  64 | CORE503    | CORE 503 Conference        | LLHA3   |
+|  65 | CORE504    | CORE 504                   | LLHA5   |
+|  66 | CORE505    | CORE 505                   | LLHA6   |
+|  67 | CORE506    | CORE 506                   | LLHA7   |
+|  68 | CORE507    | CORE 507                   | LLHB10  |
+|  69 | CORE508    | CORE 508                   | LLHA9   |
+|  70 | CORE509    | CORE 509                   | LLHA10  |
+|  71 | CORE510    | CORE 510                   | LLHA32  |
+|  72 | CORE511    | CORE 511                   | LLHA12  |
+|  73 | CORE512    | CORE 512                   | LLHB1   |
+|  74 | CORE513    | CORE 513                   | LLHA13  |
+|  75 | CORE514    | CORE 514                   | LLHB2   |
+|  76 | CORE515    | CORE 515                   | LLHA14  |
+|  77 | CORE516    | CORE 516                   | LLHB3   |
+|  78 | CORE517    | CORE 517                   | LLHA15  |
+|  79 | CORE518    | CORE 518                   | LLHB4   |
+|  80 | CORE519    | CORE 519                   | LLHA16  |
+|  81 | CORE520    | CORE 520                   | LLHB9   |
+|  82 | CORE521    | CORE 521                   | LLHA17  |
+|  83 | CORE523    | CORE 523                   | LLHA18  |
+|  84 | CORE524    | CORE 524                   | LLHA19  |
+|  85 | CORE525    | CORE 525                   | LLHA20  |
+|  86 | CORE526    | CORE 526                   | LLHA21  |
+|  87 | CORE528    | CORE 528                   | LLHA22  |
+|  88 | CORE529    | CORE 529                   | LLHA23  |
+|  89 | CORE530    | CORE 530                   | LLHA33  |
+|  90 | CORE531    | CORE 531                   | LLHA4   |
+|  91 | CORE532    | CORE 532                   | LLHA26  |
+|  92 | CORE533    | CORE 533                   | LLHA27  |
+|  93 | CORE534    | CORE 534                   | LLHA28  |
+|  94 | CORE535    | CORE 535                   | LLHA29  |
+|  95 | CORE536    | CORE 536                   | LLHB6   |
+|  96 | CORE537    | CORE 537                   | LLHB7   |
+|  97 | CORE538    | CORE 538                   | LLHB8   |
+|  98 | CORE548    | CORE 548                   | LLHA30  |
+|  99 | CORE550    | CORE 550                   | LLHA31  |
++-----+------------+----------------------------+---------+
+| 100 | CORE613    | CORE 613                   | B3G16   |
+| 101 | CORE615    | CORE 615                   | LLHC1   |
+| 102 | CORE617    | CORE 617                   | B3G17   |
+| 104 | CORE629    | CORE 629                   | RCC55   |
++-----+------------+----------------------------+---------+
+| 106 | CORE705    | CORE 705                   | LR609   |
+| 107 | CORE707    | CORE 707                   | BEB98   |
+| 108 | CORE709    | CORE 709                   | RCC45   |
+| 109 | CORE711    | CORE 711                   | RCC18   |
+| 110 | CORE713    | CORE 713                   | RLA24   |
+| 111 | CORE715    | CORE 715                   | RCC11   |
+| 112 | CORE717    | CORE 717                   | LLHC15  |
+| 113 | CORE719    | CORE 719                   | B3G19   |
+| 114 | CORE721    | CORE 721                   | RCC38   |
+| 115 | CORE723    | CORE 723                   | RCC51   |
+| 116 | CORE728    | CORE 728                   | RCC39   |
+| 117 | CORE729    | CORE 729                   | LR555   |
+| 118 | CORE731    | CORE 731                   | RG565   |
+| 119 | CORE733    | CORE 733                   | RG564   |
+| 120 | CORE735    | CORE 735                   | RG563   |
+| 121 | CORE737    | CORE 737                   | RG562   |
++-----+------------+----------------------------+---------+
+| 122 | C212       | CWing 212                  | 40015   |
+| 123 | C204       | CWing 204                  | 00779   |
+| 124 | C204       | CWing 204                  | 3663754 |
+| 125 | C206       | CWing 206                  | BR355   |
+| 126 | C206BOLT   | CWing 206 Deadbolt         | BR356   |
+| 127 | C207       | CWing 207                  | BR357   |
+| 128 | C207BOLT   | CWing 207 Deadbolt         | BR358   |
++-----+------------+----------------------------+---------+
+
+
+
+CREATE TABLE Rooms (
+  `RID` INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  `RoomNumber` VARCHAR(10),
+  `RoomName` VARCHAR(30),
+  `KeyCode` VARCHAR(20)
+);
+
+
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE002" , "ECE 002", "BEB67");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE004" , "ECE 004", "BEB68");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE103" , "ECE 103", "BEB92");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE104" , "ECE 104", "BEB74");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE105" , "ECE 105", "RB13");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE106" , "ECE 106", "BEB93");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE107" , "ECE 107", "BEB90");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE109" , "ECE 109", "RB12");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE110" , "ECE 110", "BEB72");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE111" , "ECE 111", "BEB79");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE112" , "ECE 112", "BEB89");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE113" , "ECE 113", "BEB99");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE114" , "ECE 114", "BEB13");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE115" , "ECE 115", "BEB22");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE116" , "ECE 116", "BEB12");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE117" , "ECE 117", "BEBA2");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE118" , "ECE 118", "BEB11");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE119" , "ECE 119", "BEB83");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE119BOLT" , "ECE 119 Deadbolt", "BEB82");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE120" , "ECE 120", "BEB10");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE121" , "ECE Entrance", "BX42");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE122" , "ECE 122", "BEB5");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE123A", "ECE 1st Floor Telco Closet", "BR86");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE124" , "ECE 124", "BR510");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE128" , "ECE 128", "RB3");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE130" , "ECE 130", "BEB98");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE132" , "ECE 132", "BEBA3");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE134A", "ECE 134A", "BEBA5");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE134B", "ECE 134B", "BEBA1");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE201" , "ECE 201", "BEB65");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE202" , "ECE 202", "RB8");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE203" , "ECE 203", "BEB95");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE204" , "ECE 204", "RB7");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE205" , "ECE 205", "BEB96");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE207" , "ECE 207", "BEB94");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE208" , "ECE 208", "RB5");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE209" , "ECE 209", "BEB77");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE210" , "ECE 210", "BR560");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE211" , "ECE 211", "BEB70");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE212" , "ECE 212", "RB3");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE213" , "ECE 213", "BEB71");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE214" , "ECE 214", "LFA2");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE215" , "ECE 215", "BEB8");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE216" , "ECE 216", "BEBB6");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE217" , "ECE 217", "BEB9");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE218" , "ECE 218", "BEB100");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE219" , "ECE 219", "LR556");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE220" , "ECE 220", "BEB29");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE221A", "ECE 2nd Floor Telco Closet", "BR322");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE222" , "ECE 222", "BEB27");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE224" , "ECE 224", "BEB25");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE226" , "ECE 226", "BEB23");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE228" , "ECE 228", "BEB21");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE230" , "ECE 230", "BEB19");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE232" , "ECE 232", "BEB17");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE236" , "ECE 236", "BEB15");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE238" , "ECE 238", "BEB14");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE240" , "ECE 240", "BR488");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("ECE242" , "ECE 242", "BEB80");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE501", "CORE 501", "BR273");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE501A", "CORE 501A", "LLHA2");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE501B", "CORE 501B Kitchen", "LLHA3");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE502", "CORE 502 Mailroom", "BR282");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE503", "CORE 503 Conference", "LLHA3");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE504", "CORE 504", "LLHA5");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE505", "CORE 505", "LLHA6");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE506", "CORE 506", "LLHA7");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE507", "CORE 507", "LLHB10");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE508", "CORE 508", "LLHA9");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE509", "CORE 509", "LLHA10");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE510", "CORE 510", "LLHA32");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE511", "CORE 511", "LLHA12");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE512", "CORE 512", "LLHB1");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE513", "CORE 513", "LLHA13");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE514", "CORE 514", "LLHB2");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE515", "CORE 515", "LLHA14");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE516", "CORE 516", "LLHB3");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE517", "CORE 517", "LLHA15");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE518", "CORE 518", "LLHB4");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE519", "CORE 519", "LLHA16");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE520", "CORE 520", "LLHB9");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE521", "CORE 521", "LLHA17");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE523", "CORE 523", "LLHA18");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE524", "CORE 524", "LLHA19");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE525", "CORE 525", "LLHA20");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE526", "CORE 526", "LLHA21");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE528", "CORE 528", "LLHA22");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE529", "CORE 529", "LLHA23");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE530", "CORE 530", "LLHA33");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE531", "CORE 531", "LLHA4");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE532", "CORE 532", "LLHA26");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE533", "CORE 533", "LLHA27");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE534", "CORE 534", "LLHA28");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE535", "CORE 535", "LLHA29");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE536", "CORE 536", "LLHB6");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE537", "CORE 537", "LLHB7");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE538", "CORE 538", "LLHB8");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE548", "CORE 548", "LLHA30");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE550", "CORE 550", "LLHA31");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE613", "CORE 613", "B3G16");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE615", "CORE 615", "LLHC1");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE617", "CORE 617", "B3G17");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE629", "CORE 629", "RCC55");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE705", "CORE 705", "LR609");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE707", "CORE 707", "BEB98");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE709", "CORE 709", "RCC45");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE711", "CORE 711", "RCC18");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE713", "CORE 713", "RLA24");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE715", "CORE 715", "RCC11");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE717", "CORE 717", "LLHC15");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE719", "CORE 719", "B3G19");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE721", "CORE 721", "RCC38");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE723", "CORE 723", "RCC51");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE728", "CORE 728", "RCC39");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE729", "CORE 729", "LR555");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE731", "CORE 731", "RG565");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE733", "CORE 733", "RG564");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE735", "CORE 735", "RG563");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CORE737", "CORE 737", "RG562");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("C212", "CWing 212", "40015");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("C204", "CWing 204", "00779/3663754");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("C206", "CWing 206", "BR355");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("C206BOLT", "CWing 206 Deadbolt", "BR356");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("C207", "CWing 207", "BR357");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("C207BOLT", "CWing 207 Deadbolt", "BR358");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CCR125", "Ceramics 125", "B1D22");
+INSERT INTO Rooms (RoomNumber, RoomName, KeyCode) VALUES ("CCRSC", "Ceramics Svc Cor", "BX9");
+
+
