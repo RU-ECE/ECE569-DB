@@ -1,0 +1,43 @@
+S Rutgers Id,S Name Last,S Name First,S Unit Of Reg Cd,T Registered Ind,S Cum Gpa Ug To Date,T Gpa Term,T Scholastic Standing Cd,T Hold Academic Cd,T Tele Access Elig Override Cd,T Hold Immunization Ind,T Year,T Term,T Credit Hours Attempted,T Class Composite Cd,T Expected Month Of Graduation,T Curric Cd1,T Opt Cd1,T Curric Cd2,T Opt Cd2,T Minor Curric Cd1,T Minor Curric Cd2,S Ethnic Cd,S Gender Cd,T Eof Status Code,S Citizen Status Cd,S Visa Status Cd,T Gnrl Honors Prog Cd,T Honors College Stud Cd,E Email Addr,E Netid,A Addr Type Cd,A Number And Street,A Addtnl Info,A City,A State Territory Cd,A Zip Code,A Tele No,S_EXTERNAL_ID,S Curr Admit Year,S Curr Admit Term,S Curr Admit Type Cd,S Hs Cb Cd,S Orig Admit Year,S Orig Admit Term,S Orig Admit Type Cd,S Directory Excl Ind,S Sat Compos Highest Rec,S Sat Verbal Highest Rec,S Sat Math Highest Rec,T Bill Payment Ind,T RU Here Ind,T Ft Pt Cd,S Sap Credits Attempted Ug,S Sap Credits Completed Ug
+192002107,SNYDER,BENJAMIN,14,Y,4,,,,,N,2023,1,17,23,5,650,,,,198,,6,M,,1,,,N,ben.snyder@rutgers.edu,bss143,P,518 TEAROSE LN,,CHERRY HILL,NJ,80033408,8568571498,859466,2019,9,1,310223,2019,9,1,Y,,,,Y,Y,F,138,138
+192006389,KRALL,JAMES,14,Y,4,,,,,N,2023,1,19,23,5,650,,,,,,6,M,,1,,,N,james.krall@rutgers.edu,jjk298,P,8 LYON RD,,MIDDLETOWN,NJ,7748,,862813,2019,9,1,311586,2019,9,1,Y,,,,Y,Y,F,112,110
+192008842,BU SHA,ANTONIO,14,Y,4,,,,,N,2023,1,13,23,5,650,,,,,,4,M,,1,,,Y,afb95@rutgers.edu,afb95,P,31 DRAYTON LN,,PLAINSBORO,NJ,85362323,6092750641,860759,2019,9,1,311277,2019,9,1,Y,,,,Y,Y,F,135,135
+193000387,GOVDAN,DMYTRO,14,Y,4,,,,,N,2023,1,17,23,5,650,,,,,,6,M,,2,,,N,dg1020@rutgers.edu,dg1020,P,105 NEW ENGLAND AVE,APT A5,SUMMIT,NJ,7901,5513588707,936497,2021,9,2,311420,2021,9,2,Y,,,,N,Y,F,106,106
+193009053,NASTAROWICZ,EVAN,14,Y,4,,,,,N,2023,1,20,23,5,650,,,,220,,6,M,,1,,,Y,ean67@rutgers.edu,ean67,P,38 POTTER ROAD,,FREEHOLD,NJ,7728,,866905,2019,9,1,310407,2019,9,1,Y,,,,Y,Y,F,139,139
+199007085,SHAH,MAANAV,14,Y,4,,,,,N,2023,1,12,24,5,650,,,,640,,8,M,,1,,,N,mds341@rutgers.edu,mds341,P,1 COLONIAL CT.,,MONROE TOWNSHIP,NJ,8831,7326565987,894008,2020,9,1,310584,2020,9,1,Y,,,,Y,Y,F,90,90
+206004402,DIVERA,NAVODYA,14,Y,4,,,,,N,2023,1,13,23,5,650,,,,640,,8,M,,2,,,N,ndd48@rutgers.edu,ndd48,P,149 ISABELLE STREET,,METUCHEN,NJ,8840,,916036,2021,1,2,999997,2021,1,2,Y,,,,Y,Y,F,133,133
+206009544,SCATKO,WILLIAM,14,Y,4,,,,,N,2023,1,14,25,5,650,,,,,,6,M,,1,,,N,william.scatko@rutgers.edu,wjs137,P,551 DUTCH NECK RD,,EAST WINDSOR,NJ,8520,6093717388,927873,2021,9,1,310530,2021,9,1,Y,,,,Y,Y,F,66,66
+208003587,ROUF,AYMAN,14,Y,4,,,,,N,2023,1,17,25,5,650,,,,,,8,M,,1,,,Y,ayman.rouf@rutgers.edu,azr14,P,66 MARLIN AVENUE EAST,,EDISON,NJ,8820,7325481975,935197,2021,9,1,310309,2021,9,1,Y,,,,Y,Y,F,73.5,73.5
+210004003,CARR,NOLAN,14,Y,4,,,,,N,2023,1,17,25,5,650,,,,,,6,M,,1,,,N,nolan.carr@rutgers.edu,nrc81,P,26 HIBISCUS LANE,,ROBBINSVILLE,NJ,8691,6092591241,939992,2021,9,1,311326,2021,9,1,Y,,,,Y,Y,F,64,64
+212002420,CATALANO,BRIAN,14,Y,4,,,,,N,2023,1,13,23,5,650,,,,,,6,M,,1,,,N,brian.catalano@rutgers.edu,bcc91,P,4 SANDBURG DR,,MARLBORO,NJ,7751,7326179786,929776,2021,9,2,310752,2021,9,2,Y,,,,Y,Y,F,121,121
+213003017,OMIDIRAN,OLUWAFERANMI,14,Y,4,,,,,N,2023,1,20,24,5,650,,,,,,3,M,,2,,,N,oao67@rutgers.edu,oao67,P,616 LYONS AVE,APT 304,IRVINGTON,NJ,71113462,8627637118,946714,2022,9,2,310580,2021,9,2,Y,,,,Y,Y,F,70,70
+215000741,GROSSI,MICHAEL,14,Y,4,,,,,N,2023,1,18,26,5,650,,,,,,6,M,,1,,,Y,mg1800@rutgers.edu,mg1800,P,845 PARK AVE,,ELIZABETH,NJ,72081264,,969208,2022,9,1,311353,2022,9,1,Y,,,,Y,Y,F,44,44
+218008066,BURTON,YAAKOV,14,Y,4,,,,,N,2023,1,14,25,5,650,,,,,,6,M,,1,,,N,yaakov.b@rutgers.edu,yb280,P,206 WILLIAMSBURG LN,,LAKEWOOD,NJ,87011477,,976383,2022,9,2,310293,2022,9,2,Y,,,,Y,Y,F,59,59
+218008485,JACOBS,ASHLEIGH,14,Y,4,,,,,N,2023,1,13,25,5,650,,,,,,6,F,,1,,,N,ashleigh.jacobs@rutgers.edu,acj69,P,30 STERLING ST,,FRANKLIN,NJ,7416,,988130,2022,9,2,311409,2022,9,2,Y,,,,Y,Y,F,63,63
+219002489,VAHAB,YECHIEL,14,Y,4,,,,,N,2023,1,13,25,5,650,,,,,,6,M,,1,,,N,yechiel.vahab@rutgers.edu,ymv7,P,12 SHEMEN ST,,LAKEWOOD,NJ,87013662,,987634,2022,9,2,331891,2022,9,2,Y,,,,N,Y,F,57,57
+199004076,GALLAGHER,SHANE,14,Y,4,,,,,N,2023,1,17,24,5,635,,,,,,6,M,,1,,,Y,spg106@rutgers.edu,spg106,P,5 BLATHERWICK DR,,BERLIN,NJ,8009,8563362844,895070,2020,9,1,310417,2020,9,1,Y,,,,Y,Y,F,118,118
+206006232,PRICE,TIMOTHY,14,Y,4,,,,,N,2023,1,18,25,5,540,,,,,,T,M,,1,,,N,timothy.price@rutgers.edu,twp25,P,132 COUNTRY FARMS ROAD,,EVESHAM TOWNSHIP,NJ,8053,8569830448,922487,2021,9,1,310761,2021,9,1,Y,,,,Y,Y,F,57,57
+192007069,SCHUG,JENNIFER,14,Y,4,,,,,N,2023,1,16.5,23,5,366,,,,962,560,6,F,,1,,,Y,jls751@rutgers.edu,jls751,P,1718 OAKWOOD TERRACE,,SCOTCH PLAINS,NJ,7076,9088894902,859586,2023,9,3,311353,2019,9,1,Y,,,,Y,Y,F,141.5,145.5
+202001755,SURESH,NITHYAHARINI,14,Y,4,,,,,N,2023,1,15,24,5,366,,,,,,8,F,,1,,,N,ns1233@rutgers.edu,ns1233,P,16210 ROOKERY CT,,WEST WINDSOR,NJ,85505436,6097516606,901420,2020,9,1,311277,2020,9,1,Y,,,,Y,Y,F,96.5,96.5
+204005386,NEVULIS,ALLISON,14,Y,4,,,,,N,2023,1,16,23,5,366,,,,,,6,F,,1,,,N,allison.nevulis@rutgers.edu,avn28,P,15 HARDING DR,,BRICK TOWNSHIP,NJ,8724,,898686,2023,9,3,310148,2020,9,2,Y,,,,Y,Y,F,139.5,139.5
+210000465,CHAN,JULIANNE,14,Y,4,,,,,N,2023,1,17,25,5,366,,,,,,8,F,,1,,,Y,julianne.chan@rutgers.edu,jgc132,P,1055 WHISPERING OAK LN,,MANAHAWKIN,NJ,80502631,6099788206,931668,2021,9,1,311473,2021,9,1,Y,,,,Y,Y,F,58.5,58.5
+191009164,GE,KEVIN,14,Y,4,,,,,N,2023,1,12,23,5,332,A,198,S,,,8,M,,1,,E,N,kzg6@rutgers.edu,kzg6,P,4 SUMMERHILL DRIVE,,WARREN,NJ,7059,7325487731,856584,2019,9,1,310787,2019,9,1,Y,,,,Y,Y,F,147,147
+193005071,ACKERMAN,JONATHAN,14,Y,4,,,,,N,2023,1,7,23,5,332,A,198,S,,,6,M,,1,,,Y,jonathan.ackerman@rutgers.edu,ja1121,P,37 BILLINGSLEY DRIVE,,LIVINGSTON,NJ,7039,,859776,2019,9,1,310705,2019,9,1,Y,,,,N,Y,P,174,174
+193006219,KOLISETTY,PAVANGANESH,14,Y,4,,,,,N,2023,1,14,23,5,332,A,198,,,,8,M,,1,,E,N,pk577@rutgers.edu,pk577,P,5205 HANA RD,,EDISON,NJ,8817,7328293547,862506,2019,9,1,310297,2019,9,1,Y,,,,Y,Y,F,152,152
+194000857,EHSAN,TAQIYA,14,Y,4,,,,,N,2023,1,12,23,5,332,A,,,198,,8,F,,3,F1,,Y,te137@rutgers.edu,te137,P,"HOUSE#2, ROAD#5",SECTOR#5,DHAKA,,1230,,858820,2019,9,1,999997,2019,9,1,Y,,,,Y,Y,F,124,124
+198005941,ZONG,PATRICK,14,Y,4,,,,,N,2023,1,18,26,5,332,B,,,,,8,M,,1,,,N,pzz2@rutgers.edu,pzz2,P,472 OTISCO DR,,WESTFIELD,NJ,70902714,7329836837,870653,2022,9,1,311353,2022,9,1,Y,,,,Y,Y,F,52,52
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,Trevor.murray@rutgers.edu,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
