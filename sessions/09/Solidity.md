@@ -12,7 +12,8 @@
 1. Gas cost depends on computational cost of code
    1. CPU
    2. Memory use
-   3. Effectively, you are renting a piece of other's computers
+   3. Gas rate: Can pay a premium to go first
+   4. Effectively, you are renting a piece of other's computers
 2. const and immutable are considered "cheaper" than regular variables
 3. immutable variables can only be set once, in the constructor
 4. constants are set at declaration time
@@ -51,7 +52,9 @@ pragma solidity ^0.8.24;
 
 contract Immutable {
   address public constant MY_WALLET =
-        0x777788889999AaAAbBbbCcccddDdeeeEfFFfCcCc;
+        0x777788889999AaAAbBbbCcccddDdeeeEfFFfCcCC;
+  address public constant MY_WALLET2 =
+        0x777788889999AaAAbBbbCcccddDdeeeEfFFfDDDD;
   address public immutable MY_ADDRESS; // convention: uppercase constant variables
   uint256 public immutable MY_UINT;
 
@@ -67,15 +70,15 @@ contract Immutable {
 * State variables
   * Stored on blockchain
   * Can be changed
-* 
+* Memory
+  * variables in functions are in RAM and disappear
 
 ### State Variables
 ```solidity
 pragma solidity ^0.8.24;
 
 contract SimpleStorage {
-    // State variable to store a number
-    uint256 public num;
+    uint256 public num;    // State variable to store a number
 
     // You need to send a transaction to write to a state variable.
     function set(uint256 _num) public {
@@ -111,7 +114,9 @@ contract EtherUnits {
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.24;
-
+// seconds, minutes, hours, days...
+  bool public isOneSecond = 1 seconds == 1;
+  bool public isOneWeek = 1 days == 86400;
 ```
 
 ### Enumerated Values
@@ -167,7 +172,7 @@ pragma solidity ^0.8.24;
 
 contract Array {
     // Several ways to initialize an array
-    uint256[] public arr;
+    uint256[] public arr = new uint256[](3000);
     uint256[] public arr2 = [1, 2, 3];
     // Fixed sized array, all elements initialize to 0
     uint256[10] public myFixedSizeArr;

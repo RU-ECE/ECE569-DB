@@ -71,6 +71,33 @@ SELECT avg(a) FROM integers GROUP BY b; //O(n) n is the total number of rows in 
 
 SELECT avg(d) FROM integers;
 
+```
+
+3. STORED PROCEDURES
+  * How do stored procedures make databases faster?
+    * reduce latency
+      * precompiles the code (no delay for interpretation)
+      * pre-optimize
+      * executing on the server
+        * Communication between stored procedure and server is fast, low-latency
+```sql
+    SELECT max(pop) FROM Cities; // O(n) or O(log n) IF index on pop
+    SELECT * FROM Cities where pop > 10000000 ORDER BY pop limit = 1; // all big cities
+
+    SELECT max(pop), min(pop) FROM Cities WHERE pop>10000000;
+
+
+
+    SELECT pop FROM Cities; // O(n)
 
 
 ```
+ Examples: 
+   * Write a stored procedure to insert 1000 rows into table
+   * Write a stored procedure to do a transaction
+      * Given 2 accounts, transfer money from A to B if there is enough money in A
+      * Write the transaction into a transaction log
+  
+
+
+
